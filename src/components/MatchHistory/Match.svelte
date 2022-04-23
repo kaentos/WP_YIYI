@@ -7,7 +7,7 @@
     const player = data.participants.find((p: any) => p.summonerName === summonerName);
 </script>
 
-<div class="{player.won ? 'bg-blue' : 'bg-red'} m-4 grid grid-cols-12 gap-4 rounded" style="max-height: 250px;">
+<div class="{player.won ? 'bg-blue' : 'bg-red'} grid grid-cols-12 gap-4 rounded" style="max-height: 250px;">
     <div class="col-span-2 flex">
         <div class="overflow-hidden rounded-l" style="height:160px;">
             <img src="/img/Rell_0.jpg" class="h-full scale-110" alt="ChampionImage">
@@ -54,7 +54,7 @@
                 <img src="/img/item3.png" class="rounded" alt="Item 1">
             </div>
             <div class="row-span-2">
-                <img src="/img/item7.png" class="min-h-full object-none rounded" alt="Item 1">
+                <img src="/img/item7.png" class="min-h-full object-cover rounded" alt="Item 1">
             </div>
             <div>
                 <img src="/img/item4.png" class="rounded" alt="Item 1">
