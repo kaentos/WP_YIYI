@@ -22,23 +22,23 @@
 
     <div class="col-span-4 grid grid-cols-12 gap-4">
         <div class="col-span-5 text-white my-auto ">
-            <p class="font-bold text-4xl"> {player.won ? "VICTORY" : "DEFEAT"}</p>
-            <p class="opacity-80">NORMAL DRAFT</p> 
+            <p class="font-bold text-2xl"> {player.won ? "VICTORY" : "DEFEAT"}</p>
+            <p class="opacity-80">Normal Draft</p> 
             <p class="opacity-80">18:23</p>
-            <p class="opacity-80">2 DAYS AGO</p>
+            <p class="text-xs opacity-80">2 days ago</p>
         </div>
         
         <div class="col-span-4 text-center my-auto">
-            <p class="text-4xl">0/6/3</p>
-            <p class="text-xl opacity-80">0.5 KDA</p>
-            <p class="text-xl opacity-80">P/Kill 38%</p>
+            <p class="text-2xl font-semibold">0/6/3</p>
+            <p class="opacity-80">0.5 KDA</p>
+            <p class="opacity-80">P/Kill 38%</p>
         </div>
         
         <div class="col-span-3 my-auto">
             <p class="opacity-80">Rell</p>
-            <p class="opacity-80">LVL 8</p>
-            <p class="opacity-80">28CS (1.5)</p>
-            <p class="opacity-80">21 VISION</p>
+            <p class="opacity-80">LvL 8</p>
+            <p class="opacity-80">28cs (1.5)</p>
+            <p class="opacity-80">21 Vision</p>
         </div>
     </div>
     

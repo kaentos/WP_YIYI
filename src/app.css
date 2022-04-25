@@ -7,7 +7,28 @@
     src: url("/font/BebasNeue/BebasNeue-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Roboto";
+    src: url("/font/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("/font/Ubuntu/Ubuntu-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("/font/Ubuntu/Ubuntu-Medium.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("/font/Ubuntu/Ubuntu-Regular.ttf");
+}
+
 * {
-    font-family: "BebasNeue";
-    letter-spacing: 1px;
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
 }
